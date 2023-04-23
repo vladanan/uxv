@@ -1,0 +1,26 @@
+gpl2 licenca za sve na github
+a u opisu app na upwork itd. i na samoj app link ka linkedin profilu
+
+uxv dev na oi (sun solaris express) a test na fedora, oracle solaris, netbsd
+
+uxv projekat za učenje unix i go
+
+šta je novije oi ili 11-4?
+11-4 je od pre 4 godine ali se redovno updatuje sa SRU pakete (Support Repository Updates)
+oi je od pre 6 meseci jer nema stalnih updatova nego se izbaci novo svakih 6 meseci do godinu dana
+
+kvalitetna struktura za uxv za git:
+src za kod bin za izvršne kao po unix file system filizofiji
+read.me u root folderu projekta a beleške u zasebnom folderu misc
+kasnije može i folder docs ili gde već idu man pages
+izvršni fajlovi u /usr/bin/edv
+docs /usr/share/doc/edv folder
+
+
+kako da edv ima info/--version/man dokumentaciju?
+prvo samo txt i readme.md na github
+
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+
