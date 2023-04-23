@@ -4,5 +4,5 @@ import "fmt"
 
 func main() {
     fmt.Println("Hello, World and Solaris 3 ed!!")
-    fmt.Println("Test in fedora VSC 2")
+    fmt.Println("Test in fedora VSC 3")
 }
