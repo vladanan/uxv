@@ -30,6 +30,10 @@ so bsd will be the first option until scroll is fixed
 oracle solaris intsall images are not for dev and prod and commerce
 but just for testing so their licence is not suitable if my project evolves further
 
+uxv development on open indiana (based on sun solaris express) and tests on fedora, oracle solaris, netbsd
+
+uxv is project to learn unix and go
+
 why vm?
 because i don't have another comp and even if i had i have no more space on my desk for it
 
@@ -37,8 +41,8 @@ why go lang and not c, c++, rust etc.?
 bsd and solaris are distant advanced versions of ancient unix and
 go through c is advanced version of b and
 ken who made b is also one of the creators of go and
-today c is for system programmers and go could have better prospect to learn
-for more and different applications
+today c is mainly for system programmers and go could have better prospect to learn
+for other applications
 
 first version would be written in ed
 seccond in vi
