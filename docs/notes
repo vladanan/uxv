@@ -80,3 +80,9 @@ mousepad
 /usr/pkg/bin/
 
 mount_msdos -m 0755 -M 0755 /dev/sd0e /flash
+
+---
+
+kada se u git ignore doda nešto što je već indeksiranu u git kešu
+
+To untrack a single file that has already been added/initialized to your repository, i.e., stop tracking the file but not delete it from your system use: git rm --cached filename
