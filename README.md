@@ -1,53 +1,57 @@
 # uxv
 
-uxv = unix v = unix 5 = fifth part (at least for me):
-1. unix from bell labs
-2. bsd
-3. linux
-4. macos & android
-5. my play with ed and sh
+uxv is project to learn unix and go.
 
-why edv and shv?
-the same reason as for uxv
+uxv = Unix V = Unix 5 = Unix fifth part (at least for me):
 
-why this?
-it is when i'm 50 i met and learned about unix and it is also ~50 years from genesis of unix
-and i like unix story and system so i'll try to make new ed and sh just for fun and enjoyment
-and i plan to write my edv on (old) ed
-just like ken wrote first unix software on (probably) qed and on Model 33 Teletype
-but maybe if things get compolex i continue with vi
-(and afther that with visual studio code or something similar)
+1. Unix from Bell labs
+2. BSD
+3. Linux
+4. MacOs & Android
+5. my experiment with uxv, ed and sh
 
-why (net) bsd?
-only bsd which is working good enough in vm
-while i'm stll trying to make oi solaris work at satisfactory level
+Why edv and shv?
 
-why (open indiana) solaris?
-the only free original unix which worked well in virtual machine and
-oracle (sun) 11-3 and 11-4 solaris didn't work well in vm
-but oi is not functional because of problem with scroll for mouse
-so bsd will be the first option until scroll is fixed
-oracle solaris intsall images are not for dev and prod and commerce
-but just for testing so their licence is not suitable if my project evolves further
+The same reason as for uxv.
 
-uxv development on open indiana (based on sun solaris express) and tests on fedora, oracle solaris, netbsd
+Why this?
 
-uxv is project to learn unix and go
+It is when I'm 50 I met and learned about Unix and it is also ~50 years from genesis of Unix.
+And i like Unix story and system so i'll try to make new ed and sh just for fun and enjoyment.
+I plan to write my edv on ed, just like Ken wrote first Unix software on qed and on Model 33 Teletype.
+Later if things get complex I'll continue with vi (and afther that with Visual studio code or something similar).
 
-why vm?
-because i don't have another comp and even if i had i have no more space on my desk for it
+Why NetBSD?
 
-why go lang and not c, c++, rust etc.?
-bsd and solaris are distant advanced versions of ancient unix and
+Only BSD which is working good enough in VM, while I'm stll trying to make OI Solaris work at satisfactory level.
+
+Why (Open indiana) Solaris?
+
+The only free original Unix which worked well in virtual machine.
+Oracle (Sun) 11-3 or 11-4 Solaris didn't work well in vm, install images are not for dev or prod or commerce
+but just for testing so their licence is not suitable if my project evolves further.
+But OI is not fully functional because of problem with scroll for mouse, so BSD was be the first option until scroll is fixed.
+Later I found out that in vm BSD runs cpu at 70% for no apparent reason so I switched back to IO Solaris because
+scroll problem is not big (and maybe can be temporarily fixed by little hacking in to vm setup).
+
+uxv development on Open indiana (based on Sun Solaris express) and tests on Fedora, Oracle Solaris, NetBSD.
+
+Why virtual machine?
+
+Because I don't have another comp and even if I had I have no more space on my desk for it.
+
+Why go and not c, c++, rust etc.?
+
+BSD and Solaris are distant advanced versions of ancient Unix and
 go through c is advanced version of b and
-ken who made b is also one of the creators of go and
+Ken who made b is also one of the creators of go and
 today c is mainly for system programmers and go could have better prospect to learn
-for other applications
+for other applications.
 
-first version would be written in ed
+So first version would be written in ed
 seccond in vi
 third in sam?
 fourth in emacs
-fifth in vscode
+fifth in VS Code.
 
 **license: GPLv2.0**
