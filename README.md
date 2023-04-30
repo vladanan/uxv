@@ -31,8 +31,8 @@ The only free original Unix which worked well in virtual machine.
 Oracle (Sun) 11-3 or 11-4 Solaris didn't work well in vm, install images are not for dev or prod or commerce
 but just for testing so their licence is not suitable if my project evolves further.
 But OI is not fully functional because of problem with scroll for mouse, so BSD was be the first option until scroll is fixed.
-Later I found out that in vm BSD runs cpu at 70% for no apparent reason so I switched back to IO Solaris because
-scroll problem is not big (and maybe can be temporarily fixed by little hacking in to vm setup).
+Later I found out that in vm BSD runs cpu at around 80% for no apparent reason so I switched back to IO Solaris because
+scroll problem is not big (and can be fixed by little hacking in vm setup).
 
 uxv development on Open indiana (based on Sun Solaris express) and tests on Fedora, Oracle Solaris, NetBSD.
 
