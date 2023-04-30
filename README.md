@@ -10,22 +10,22 @@ uxv = Unix V = Unix 5 = Unix fifth part (at least for me):
 4. MacOs & Android
 5. my experiment with uxv, ed and sh
 
-Why edv and shv?
+**Why edv and shv?**
 
 The same reason as for uxv.
 
-Why this?
+**Why this?**
 
 It is when I'm 50 I met and learned about Unix and it is also ~50 years from genesis of Unix.
 And i like Unix story and system so i'll try to make new ed and sh just for fun and enjoyment.
 I plan to write my edv on ed, just like Ken wrote first Unix software on qed and on Model 33 Teletype.
 Later if things get complex I'll continue with vi (and afther that with Visual studio code or something similar).
 
-Why NetBSD?
+**Why NetBSD?**
 
 Only BSD which is working good enough in VM, while I'm stll trying to make OI Solaris work at satisfactory level.
 
-Why (Open indiana) Solaris?
+**Why (Open indiana) Solaris?**
 
 The only free original Unix which worked well in virtual machine.
 Oracle (Sun) 11-3 or 11-4 Solaris didn't work well in vm, install images are not for dev or prod or commerce
@@ -36,11 +36,11 @@ scroll problem is not big (and can be fixed by little hacking in vm setup).
 
 uxv development on Open indiana (based on Sun Solaris express) and tests on Fedora, Oracle Solaris, NetBSD.
 
-Why virtual machine?
+**Why virtual machine?**
 
 Because I don't have another comp and even if I had I have no more space on my desk for it.
 
-Why go and not c, c++, rust etc.?
+**Why go and not c, c++, rust etc.?**
 
 BSD and Solaris are distant advanced versions of ancient Unix and
 go through c is advanced version of b and
