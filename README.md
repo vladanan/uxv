@@ -63,7 +63,7 @@ asm code and it was not intended to be used with readme files probably.
 
 The same impressions I have when working with Go code. Changing part of line to print other text involves either completely
 new line or s command whith more or less work. So it seems that ed was also not meant for higher level languages and even
-if it was used for that it was pretty tough, especcialy on Teletypes 50 years ago. So, maybe, I'll make switch to vi sooner
+if it was used for that it was pretty tough, especially on Teletypes 50 years ago. So, maybe, I'll make switch to vi sooner
 than I expected XD
 
 **License: GPLv2.0**
