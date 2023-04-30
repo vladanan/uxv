@@ -54,4 +54,11 @@ third in sam?
 fourth in emacs
 fifth in VS Code.
 
+Some notes while editing this readme file with ed. As far as I know there is no easy way to split line in two parts
+and also to add characters or words at the start or end of line. While thinking about this I realised that when
+working on assembler code there is probablu no need for that kind of editing. I have found on some site the original
+asm code for first Unix and simple operations in ed would be probably just enough to work on that bur for editing
+text like this one and to split and move parts of lines is not easy in ed. So ed is probably just fine and good for
+asm code and it was not intended to be used with readme files probably.
+
 **License: GPLv2.0**
