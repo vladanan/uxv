@@ -54,4 +54,4 @@ third in sam?
 fourth in emacs
 fifth in VS Code.
 
-**license: GPLv2.0**
+**License: GPLv2.0**
