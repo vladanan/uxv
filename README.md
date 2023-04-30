@@ -1,6 +1,6 @@
 # uxv
 
-uxv is project to learn unix and go.
+uxv is project to learn Unix and Go.
 
 uxv = Unix V = Unix 5 = Unix fifth part (at least for me):
 
@@ -40,12 +40,12 @@ uxv development on Open indiana (based on Sun Solaris express) and tests on Fedo
 
 Because I don't have another comp and even if I had I have no more space on my desk for it.
 
-**Why go and not c, c++, rust etc.?**
+**Why Go and not C, C++, Rust etc.?**
 
 BSD and Solaris are distant advanced versions of ancient Unix and
-go through c is advanced version of b and
-Ken who made b is also one of the creators of go and
-today c is mainly for system programmers and go could have better prospect to learn
+Go through C is advanced version of B and
+Ken who made B is also one of the creators of Go and
+today C is mainly for system programmers and Go could have better prospect to learn
 for other applications.
 
 So first version would be written in ed
