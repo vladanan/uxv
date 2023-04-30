@@ -7,7 +7,7 @@ uxv = Unix V = Unix 5 = Unix fifth part (at least for me):
 1. Unix from Bell labs
 2. BSD
 3. Linux
-4. MacOs & Android
+4. macOS & Android
 5. my experiment with uxv, ed and sh
 
 **Why edv and shv?**
