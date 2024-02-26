@@ -1,69 +1,33 @@
 # uxv
 
-uxv is project to learn Unix and Go.
+This is a memorial project for Unix and line editor ed.
 
-uxv = Unix V = Unix 5 = Unix fifth part (at least for me):
+**What is the meaning of ux and v?**
 
-1. Unix from Bell labs
+uxv = Unix V = Unix 5 = Unix fifth part (at least from my personal perspective)(yes I know about Plan 9, Inferno, Limbo and 9P):
+
+1. Ancient Unix from Bell labs
 2. BSD
 3. Linux
 4. macOS & Android
-5. my experiment with uxv, ed and sh
+5. my experiments with edv editor, shv shell and uxv OS
 
-**Why edv and shv?**
+**Why I'm doing this?**
 
-The same reason as for uxv.
+Just for programming fun and enjoyment. When I turned 50 It was around the same time as ~50 years since the genesis of Unix. I like both Unix's story and system itself so I'll try to make very small and simple new ed, sh and Unix just to see what will happen.I plan for edv not to be a full screen editor like vi nor even a single line editor as ed. Instead edv will be a single character editor, as strange as it sounds, but with, I hope, some special and interesting features. If that happens to work well then edv might evolve to single line and more. After edv is finished I'll try to make a shv shell and maybe even a uxv operating system. And who knows what else if my imagination and motivation propagates further.
 
-**Why this?**
+**Why Solaris Unix?**
 
-It is when I'm 50 I met and learned about Unix and it is also ~50 years from genesis of Unix.
-And i like Unix story and system so i'll try to make new ed and sh just for fun and enjoyment.
-I plan to write my edv on ed, just like Ken wrote first Unix software on qed and on Model 33 Teletype.
-Later if things get complex I'll continue with vi (and afther that with Visual studio code or something similar).
-
-**Why NetBSD?**
-
-Only BSD which is working good enough in VM, while I'm stll trying to make OI Solaris work at satisfactory level.
-
-**Why (Open indiana) Solaris?**
-
-The only free original Unix which worked well in virtual machine.
-Oracle (Sun) 11-3 or 11-4 Solaris didn't work well in vm, install images are not for dev or prod or commerce
-but just for testing so their licence is not suitable if my project evolves further.
-But OI is not fully functional because of problem with scroll for mouse, so BSD was be the first option until scroll is fixed.
-Later I found out that in vm BSD runs cpu at around 80% for no apparent reason so I switched back to IO Solaris because
-scroll problem is not big (and can be fixed by little hacking in vm setup).
-
-uxv development on Open indiana (based on Sun Solaris express) and tests on Fedora, Oracle Solaris, NetBSD.
-
-**Why virtual machine?**
-
-Because I don't have another comp and even if I had I have no more space on my desk for it.
+It's Unix and BSD and Solaris are distant advanced versions of ancient Unix. When Solaris boots one can see that Unix is starting which is nice to see. OpenIndiana Solaris Unix (based on Sun Solaris Express) was the only free original Unix which worked sufficiently well in virtual machine. Oracle (Sun) 11-3 or 11-4 Solaris Unix didn't work well in vm, free install images are not for development or production but just for testing so their licence is not suitable if my project evolves further. NetBSD was used only for testing in the first several iterations of edv but not for development because of the weirdly high constant CPU loads in vm. Further testing will be done on Fedora Linux.
 
 **Why Go and not C, C++, Rust etc.?**
 
-BSD and Solaris are distant advanced versions of ancient Unix and
-Go through C is advanced version of B and
-Ken who made B is also one of the creators of Go and
-today C is mainly for system programmers and Go could have better prospect to learn
-for other applications.
+I look at Go, through C, as a distant advanced version of ancient B. And Ken who made B is also one of the creators of Go. Today C is mainly for systems programming, which is not my primary interest, and Go has better prospects for other applications at least for me in backend (and web development).
 
-So first version would be written in ed
-seccond in vi
-third in sam?
-fourth in emacs
-fifth in VS Code.
+**Why ed editor?**
 
-Some notes while editing this readme file with ed. As far as I know there is no easy way to split line in two parts
-and also to add characters or words at the start or end of line. While thinking about this I realised that when
-working on assembler code there is probablu no need for that kind of editing. I have found on some site the original
-asm code for first Unix and simple operations in ed would be probably just enough to work on that bur for editing
-text like this one and to split and move parts of lines is not easy in ed. So ed is probably just fine and good for
-asm code and it was not intended to be used with readme files probably.
+Programming of edv started in ed as some kind of distant comparison with Ken writing ancient Unix software on qed and Model 33 Teletype. So both this Readme.md file and Go code for edv were entirely written in ed editor in their first iterations. Not an easy task as it appears to me that ed wasn't exactly meant for writing long readme files or code for higher level languages like Go unlike somewhat simpler syntax for early Unix assembly code. I believe that this is the main reason why ex and vi later appeared.
 
-The same impressions I have when working with Go code. Changing part of line to print other text involves either completely
-new line or s command whith more or less work. So it seems that ed was also not meant for higher level languages and even
-if it was used for that it was pretty tough, especially on Teletypes 50 years ago. So, maybe, I'll make switch to vi sooner
-than I expected XD
+After programming in ed further work will continue in vi(m) and/or Emacs as they are fundamental parts of computer history and editor evolution. After that work will probably continue in Visual Studio Code.
 
 **License: GPLv2.0**

@@ -1,1 +1,0 @@
-mount_msdos -m 0755 -M 0755 /dev/sd0e /flash
