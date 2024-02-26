@@ -18,7 +18,7 @@ Just for programming fun and enjoyment. When I turned 50 It was around the same 
 
 **Why Solaris Unix?**
 
-It's Unix and BSD and Solaris are distant advanced versions of ancient Unix. When Solaris boots one can see that Unix is starting which is nice to see. OpenIndiana Solaris Unix (based on Sun Solaris Express) was the only free original Unix which worked sufficiently well in virtual machine. Oracle (Sun) 11-3 or 11-4 Solaris Unix didn't work well in vm, free install images are not for development or production but just for testing so their licence is not suitable if my project evolves further. NetBSD was used only for testing in the first several iterations of edv but not for development because of the weirdly high constant CPU loads in vm. Further testing will be done on Fedora Linux.
+It's Unix and BSD and Solaris are distant advanced versions of ancient Unix. When Solaris boots one can see 'Loading unix...' message which is nice to see. OpenIndiana Solaris Unix (based on Sun Solaris Express) was the only free original Unix which worked sufficiently well in virtual machine. Oracle (Sun) 11-3 or 11-4 Solaris Unix didn't work well in vm, free install images are not for development or production but just for testing so their licence is not suitable if my project evolves further. NetBSD was used only for testing in the first several iterations of edv but not for development because of the weirdly high constant CPU loads in vm. Further testing will be done on Fedora Linux.
 
 **Why Go and not C, C++, Rust etc.?**
 
