@@ -14,7 +14,7 @@ uxv = Unix V = Unix 5 = Unix fifth part (at least from my personal perspective)(
 
 **Why I'm doing this?**
 
-Just for programming fun and enjoyment. When I turned 50 it was around the same time as ~50 years since the genesis of Unix. I like both Unix's story and system itself so I'll try to make very small and simple new ed, sh and Unix just to see what will happen. I plan for edv not to be a full screen editor like vi nor even a single line editor as ed. Instead edv will be a single character editor, as strange as it sounds, but with, I hope, some special and interesting features. If that happens to work well then edv might evolve to single line and more. After edv is finished I'll try to make a shv shell and maybe even a uxv operating system. And who knows what else if my imagination and motivation propagates further.
+Just for programming fun and enjoyment. When I turned 50 it was around the same time as ~50 years since the genesis of Unix. I like both Unix's story and system itself so I'll try to make extremely small and simple new ed, sh and Unix just to see what will happen. I plan for edv not to be a full screen editor like vi nor even a single line editor as ed. Instead edv will be a single character editor, as strange as it sounds, but with, I hope, some special and interesting features. If that happens to work well then edv might evolve to single line and more. After edv is finished I'll try to make a shv shell and maybe even a uxv operating system. And who knows what else if my imagination and motivation propagates further.
 
 **Why Solaris Unix?**
 
