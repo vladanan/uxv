@@ -30,6 +30,6 @@ OpenIndiana Solaris (distribution of Illumos OS based on Sun Solaris Express) wa
 
 I look at Go, through C, as a distant advanced version of ancient B. And Ken who made B is also one of the creators of Go. Today C is mainly for systems programming, which is not my primary interest, and Go has better prospects for other applications at least for me in backend (and web development).
 
-After programming in ed further work will continue in vi(m) and/or Emacs as they are fundamental parts of computer history and editor evolution. After that work will maybe continue in Visual Studio Code. Also main programming will include Fedora Linux with testing on Solaris vm.
+After programming in ed further work will continue in vi(m) and/or Emacs as they are fundamental parts of computer history and editor evolution. After that work will maybe continue in Visual Studio Code. Also main programming will include Fedora GNU/Linux with testing on Solaris vm.
 
 **License: GPLv2.0**
